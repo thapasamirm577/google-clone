@@ -100,7 +100,11 @@ const Search = () => {
                             </div>
                             <div className={classes.result_nav_menu_section}>
                                 <div className={classes.indv_nav_icon}>
-                                    <a href="#" target="_blank">
+                                    <a
+                                        href="#"
+                                        target="_blank"
+                                        rel="noreferrer noopener"
+                                    >
                                         <RiSettings4Line
                                             className={classes.setting_home_nav}
                                         />
@@ -110,6 +114,7 @@ const Search = () => {
                                     <a
                                         href="https://about.google/products/"
                                         target="_blank"
+                                        rel="noreferrer noopener"
                                     >
                                         <FaTh
                                             className={classes.produc_home_nav}
